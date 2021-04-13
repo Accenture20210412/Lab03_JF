@@ -7,7 +7,7 @@ public class BrowserAnalyzer {
         BrowserHandlerFactory factory = browser;
         BrowserHandler browserHandler = factory.createBrowser();
 
-        return browserHandler.openPages(List.of("www.wp.pl"));
+        return browserHandler.openPages(List.of("www.wp.pl", "www.nk.pl", "www.fb.pl"));
     }
 
 
