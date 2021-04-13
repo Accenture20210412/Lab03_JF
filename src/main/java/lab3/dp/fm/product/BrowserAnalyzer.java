@@ -1,7 +1,8 @@
 package lab3.dp.fm.product;
 
-import java.util.List;
-
 public class BrowserAnalyzer {
-//    List<BrowserHandler>
+    BrowserHandlerFactory factory = new ChromeFactory();
+    BrowserHandler browserHandler = factory.createBrowser();
+
+
 }

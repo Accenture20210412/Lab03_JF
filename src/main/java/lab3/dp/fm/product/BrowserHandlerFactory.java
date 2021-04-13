@@ -1,5 +1,5 @@
 package lab3.dp.fm.product;
 
-public interface BrowserFactory {
+public interface BrowserHandlerFactory {
     BrowserHandler createBrowser();
 }
