@@ -5,5 +5,6 @@ public class Main {
         BrowserAnalyzer browserAnalyzer = new BrowserAnalyzer();
         System.out.println(browserAnalyzer.analyze(new ChromeFactory()));
         System.out.println(browserAnalyzer.analyze(new FirefoxFactory()));
+        System.out.println(browserAnalyzer.analyze(new OperaFactory()));
     }
 }
